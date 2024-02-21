@@ -138,8 +138,8 @@
 		593D63A52B866961002BC206 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				593D63A82B866999002BC206 /* Image */,
 				593D63A72B86697F002BC206 /* Cells */,
+				593D63A82B866999002BC206 /* Image */,
 				593D63A62B866968002BC206 /* UIKit Components */,
 			);
 			path = Views;
