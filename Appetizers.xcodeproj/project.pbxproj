@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		593D639B2B86650B002BC206 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D639A2B86650B002BC206 /* RemoteImage.swift */; };
 		5948BB5B2B7CB9F100CA56A6 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948BB5A2B7CB9F100CA56A6 /* AppetizerListView.swift */; };
 		5948BB5D2B7CBA0400CA56A6 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948BB5C2B7CBA0400CA56A6 /* AccountView.swift */; };
 		5948BB5F2B7CBA0F00CA56A6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948BB5E2B7CBA0F00CA56A6 /* OrderView.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		593D639A2B86650B002BC206 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		5948BB5A2B7CB9F100CA56A6 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		5948BB5C2B7CBA0400CA56A6 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		5948BB5E2B7CBA0F00CA56A6 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		593D639C2B86689B002BC206 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				59D1712B2B7CB44500168A17 /* AppetizerTabView.swift */,
+				593D639D2B8668AB002BC206 /* AppetizerListView */,
+				593D639E2B8668B6002BC206 /* AccountView */,
+				593D639F2B8668BE002BC206 /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		593D639D2B8668AB002BC206 /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				5948BB682B7E289300CA56A6 /* AppetizerListViewModel.swift */,
+				5948BB5A2B7CB9F100CA56A6 /* AppetizerListView.swift */,
+			);
+			path = AppetizerListView;
+			sourceTree = "<group>";
+		};
+		593D639E2B8668B6002BC206 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				5948BB5C2B7CBA0400CA56A6 /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		593D639F2B8668BE002BC206 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				5948BB5E2B7CBA0F00CA56A6 /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		593D63A02B8668FF002BC206 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				593D63A32B86691E002BC206 /* Alert */,
+				593D63A22B866910002BC206 /* Extensions */,
+				593D63A12B866906002BC206 /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		593D63A12B866906002BC206 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5948BB642B7E0D3C00CA56A6 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		593D63A22B866910002BC206 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5948BB6E2B7E2E4B00CA56A6 /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		593D63A32B86691E002BC206 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				5948BB662B7E0E4800CA56A6 /* APError.swift */,
+				5948BB6A2B7E2A3900CA56A6 /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		593D63A42B866939002BC206 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5948BB602B7D04AD00CA56A6 /* Appetizer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		593D63A52B866961002BC206 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				593D63A82B866999002BC206 /* Image */,
+				593D63A72B86697F002BC206 /* Cells */,
+				593D63A62B866968002BC206 /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		593D63A62B866968002BC206 /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				5948BB6C2B7E2D6200CA56A6 /* LoadingView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		593D63A72B86697F002BC206 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5948BB622B7E0C8F00CA56A6 /* AppetizerListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		593D63A82B866999002BC206 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				593D639A2B86650B002BC206 /* RemoteImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		59D1711D2B7CB44500168A17 = {
 			isa = PBXGroup;
 			children = (
@@ -73,21 +188,13 @@
 		59D171282B7CB44500168A17 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				593D63A42B866939002BC206 /* Model */,
+				593D63A02B8668FF002BC206 /* Utilities */,
+				593D63A52B866961002BC206 /* Views */,
+				593D639C2B86689B002BC206 /* Screens */,
 				59D171292B7CB44500168A17 /* AppetizersApp.swift */,
-				59D1712B2B7CB44500168A17 /* AppetizerTabView.swift */,
 				59D1712D2B7CB44700168A17 /* Assets.xcassets */,
 				59D1712F2B7CB44700168A17 /* Preview Content */,
-				5948BB5A2B7CB9F100CA56A6 /* AppetizerListView.swift */,
-				5948BB682B7E289300CA56A6 /* AppetizerListViewModel.swift */,
-				5948BB5C2B7CBA0400CA56A6 /* AccountView.swift */,
-				5948BB5E2B7CBA0F00CA56A6 /* OrderView.swift */,
-				5948BB602B7D04AD00CA56A6 /* Appetizer.swift */,
-				5948BB622B7E0C8F00CA56A6 /* AppetizerListCell.swift */,
-				5948BB642B7E0D3C00CA56A6 /* NetworkManager.swift */,
-				5948BB662B7E0E4800CA56A6 /* APError.swift */,
-				5948BB6A2B7E2A3900CA56A6 /* Alert.swift */,
-				5948BB6C2B7E2D6200CA56A6 /* LoadingView.swift */,
-				5948BB6E2B7E2E4B00CA56A6 /* Color+Ext.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -179,6 +286,7 @@
 				5948BB6D2B7E2D6200CA56A6 /* LoadingView.swift in Sources */,
 				59D1712C2B7CB44500168A17 /* AppetizerTabView.swift in Sources */,
 				5948BB652B7E0D3C00CA56A6 /* NetworkManager.swift in Sources */,
+				593D639B2B86650B002BC206 /* RemoteImage.swift in Sources */,
 				59D1712A2B7CB44500168A17 /* AppetizersApp.swift in Sources */,
 				5948BB6B2B7E2A3900CA56A6 /* Alert.swift in Sources */,
 				5948BB5B2B7CB9F100CA56A6 /* AppetizerListView.swift in Sources */,
