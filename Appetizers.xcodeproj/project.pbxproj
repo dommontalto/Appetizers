@@ -20,6 +20,8 @@
 		5948BB6D2B7E2D6200CA56A6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948BB6C2B7E2D6200CA56A6 /* LoadingView.swift */; };
 		5948BB6F2B7E2E4B00CA56A6 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948BB6E2B7E2E4B00CA56A6 /* Color+Ext.swift */; };
 		5994DC9F2B887D5C00488A78 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5994DC9E2B887D5C00488A78 /* AppetizerDetailView.swift */; };
+		599E9D6E2B88D1E000B71B07 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E9D6D2B88D1E000B71B07 /* APButton.swift */; };
+		599E9D702B88D27000B71B07 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E9D6F2B88D27000B71B07 /* XDismissButton.swift */; };
 		59D1712A2B7CB44500168A17 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D171292B7CB44500168A17 /* AppetizersApp.swift */; };
 		59D1712C2B7CB44500168A17 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D1712B2B7CB44500168A17 /* AppetizerTabView.swift */; };
 		59D1712E2B7CB44700168A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D1712D2B7CB44700168A17 /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 		5948BB6C2B7E2D6200CA56A6 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		5948BB6E2B7E2E4B00CA56A6 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		5994DC9E2B887D5C00488A78 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		599E9D6D2B88D1E000B71B07 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
+		599E9D6F2B88D27000B71B07 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		59D171262B7CB44500168A17 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D171292B7CB44500168A17 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		59D1712B2B7CB44500168A17 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -141,6 +145,7 @@
 		593D63A52B866961002BC206 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				599E9D6C2B88D1D000B71B07 /* Buttons */,
 				593D63A72B86697F002BC206 /* Cells */,
 				593D63A82B866999002BC206 /* Image */,
 				593D63A62B866968002BC206 /* UIKit Components */,
@@ -170,6 +175,15 @@
 				593D639A2B86650B002BC206 /* RemoteImage.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		599E9D6C2B88D1D000B71B07 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				599E9D6D2B88D1E000B71B07 /* APButton.swift */,
+				599E9D6F2B88D27000B71B07 /* XDismissButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		59D1711D2B7CB44500168A17 = {
@@ -282,10 +296,12 @@
 			files = (
 				5948BB612B7D04AD00CA56A6 /* Appetizer.swift in Sources */,
 				5948BB672B7E0E4800CA56A6 /* APError.swift in Sources */,
+				599E9D702B88D27000B71B07 /* XDismissButton.swift in Sources */,
 				5948BB632B7E0C8F00CA56A6 /* AppetizerListCell.swift in Sources */,
 				5948BB692B7E289300CA56A6 /* AppetizerListViewModel.swift in Sources */,
 				5948BB6F2B7E2E4B00CA56A6 /* Color+Ext.swift in Sources */,
 				5948BB5D2B7CBA0400CA56A6 /* AccountView.swift in Sources */,
+				599E9D6E2B88D1E000B71B07 /* APButton.swift in Sources */,
 				5948BB6D2B7E2D6200CA56A6 /* LoadingView.swift in Sources */,
 				59D1712C2B7CB44500168A17 /* AppetizerTabView.swift in Sources */,
 				5948BB652B7E0D3C00CA56A6 /* NetworkManager.swift in Sources */,
