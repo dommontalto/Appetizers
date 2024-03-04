@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590C75FC2B95E54000326965 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590C75FB2B95E54000326965 /* CustomModifiers.swift */; };
 		593D639B2B86650B002BC206 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593D639A2B86650B002BC206 /* RemoteImage.swift */; };
 		5948BB5B2B7CB9F100CA56A6 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948BB5A2B7CB9F100CA56A6 /* AppetizerListView.swift */; };
 		5948BB5D2B7CBA0400CA56A6 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948BB5C2B7CBA0400CA56A6 /* AccountView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		590C75FB2B95E54000326965 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		593D639A2B86650B002BC206 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		5948BB5A2B7CB9F100CA56A6 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		5948BB5C2B7CBA0400CA56A6 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				593D63A72B86697F002BC206 /* Cells */,
 				593D63A82B866999002BC206 /* Image */,
 				593D63A62B866968002BC206 /* UIKit Components */,
+				590C75FB2B95E54000326965 /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				5948BB5F2B7CBA0F00CA56A6 /* OrderView.swift in Sources */,
 				599E9D762B8A4DCC00B71B07 /* Date+Ext.swift in Sources */,
 				59F3ED482B8B7ED300477793 /* Order.swift in Sources */,
+				590C75FC2B95E54000326965 /* CustomModifiers.swift in Sources */,
 				599E9D782B8B5EAF00B71B07 /* User.swift in Sources */,
 				59F3ED462B8B7B2300477793 /* EmptyState.swift in Sources */,
 			);
