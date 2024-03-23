@@ -27,6 +27,12 @@ struct LoadingView: View {
                 .ignoresSafeArea()
             
             ActivityIndictor()
+            
+//            Newer method
+            
+//            ProgressView()
+//                .progressViewStyle(CircularProgressViewStyle(tint: .brandPrimary))
+//                .scaleEffect(2)
         }
     }
 }
